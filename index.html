@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Oleksii Palamarchuk - Resume</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 10mm;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Courier New", monospace;
+            max-width: 190mm;
+            margin: 0 auto;
+            line-height: 1.4;
+            font-size: 10pt;
+            color: #000;
+            background: #fff;
+        }
+
+        .header-title {
+            font-size: 14pt;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 3px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .header-subtitle {
+            font-size: 10pt;
+            font-weight: normal;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .section-title {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-bottom: 6px;
+            margin-top: 15px;
+            text-transform: uppercase;
+        }
+
+        .subsection-title {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .text {
+            margin-bottom: 6px;
+        }
+
+        .link {
+            color: #000;
+        }
+
+        .skill-list {
+            list-style: "- ";
+            margin-left: 20px;
+        }
+
+        .skill-item {
+            margin-bottom: 1px;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        hr.separator {
+            border: none;
+            border-top: 1px solid #aaa;
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        .contact-section {
+            margin-bottom: 15px;
+        }
+
+        .contact-item {
+            margin-bottom: 2px;
+        }
+
+        .two-column-layout {
+            display: flex;
+            gap: 30px;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        .project-card {
+            margin-bottom: 12px;
+        }
+
+        .project-title {
+            margin-bottom: 3px;
+        }
+
+        .project-description {
+            margin-bottom: 3px;
+        }
+
+        .project-links {
+            margin-top: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">OLEKSII PALAMARCHUK</h1>
+        <h2 class="header-subtitle">Back-End Developer</h2>
+    </header>
+
+    <hr class="separator" />
+
+    <section class="section contact-section">
+        <h3 class="section-title">CONTACT</h3>
+        <div class="two-column-layout">
+            <div class="column">
+                <div class="contact-item">Email: oleksiypalamarchuck@gmail.com</div>
+                <div class="contact-item">Phone: +38 (063) 896-0409</div>
+                <div class="contact-item">
+                    LinkedIn:
+                    <a class="link" href="https://www.linkedin.com/in/oleksii-palamarchuk-760b0b28a">
+                        linkedin.com/in/oleksii-palamarchuk
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="contact-item">
+                    GitHub:
+                    <a class="link" href="https://github.com/PalamarchukOleksii">
+                        github.com/PalamarchukOleksii
+                    </a>
+                </div>
+                <div class="contact-item">
+                    Telegram:
+                    <a class="link" href="https://t.me/D_rwal">t.me/D_rwal</a>
+                </div>
+                <div class="contact-item">Address: Uman, Ukraine</div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="separator" />
+
+    <section class="section">
+        <h3 class="section-title">ABOUT</h3>
+        <p class="text">
+            Back-End Developer specializing in C# and ASP.NET with a strong foundation in building scalable and
+            efficient web applications. Currently pursuing a degree in System Analysis at Kyiv Polytechnic Institute.
+            Experienced in developing full-stack web solutions and real-time systems, with a passion for writing clean,
+            maintainable code and continuously learning new technologies.
+        </p>
+    </section>
+
+    <hr class="separator" />
+
+    <section class="section">
+        <h3 class="section-title">TECHNICAL SKILLS</h3>
+        <div class="two-column-layout">
+            <div class="column">
+                <h4 class="subsection-title">Backend</h4>
+                <ul class="skill-list">
+                    <li class="skill-item">.NET / ASP.NET Core</li>
+                    <li class="skill-item">C#</li>
+                    <li class="skill-item">Entity Framework Core</li>
+                    <li class="skill-item">MediatR</li>
+                    <li class="skill-item">FluentValidation</li>
+                    <li class="skill-item">REST API / SignalR</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4 class="subsection-title">Frontend</h4>
+                <ul class="skill-list">
+                    <li class="skill-item">ReactJS</li>
+                    <li class="skill-item">JavaScript</li>
+                    <li class="skill-item">HTML5</li>
+                    <li class="skill-item">CSS3</li>
+                    <li class="skill-item">Axios</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4 class="subsection-title">Database & Tools</h4>
+                <ul class="skill-list">
+                    <li class="skill-item">SQL Server / PostgreSQL</li>
+                    <li class="skill-item">Supabase</li>
+                    <li class="skill-item">MinIO</li>
+                    <li class="skill-item">Git</li>
+                    <li class="skill-item">Docker</li>
+                    <li class="skill-item">Postman</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <hr class="separator" />
+
+    <section class="section">
+        <h3 class="section-title">EDUCATION</h3>
+        <p class="text">
+            <strong>National Technical University of Ukraine 'Kyiv Polytechnic Institute'</strong>
+        </p>
+        <p class="text">Bachelor's Degree in System Analysis</p>
+        <p class="text">September 2022 - Present</p>
+    </section>
+
+    <hr class="separator" />
+
+    <section class="section">
+        <h3 class="section-title">LANGUAGES</h3>
+        <p class="text">Ukrainian: Native Proficiency</p>
+        <p class="text">English: Intermediate Level</p>
+    </section>
+
+    <hr class="separator" />
+
+    <section class="section">
+        <h3 class="section-title">PROJECTS</h3>
+        <div class="two-column-layout">
+            <article class="project-card column">
+                <h4 class="subsection-title project-title">Social-Campus</h4>
+                <p class="project-description">
+                    Student-focused social network for connecting, sharing content, and
+                    organizing events securely.
+                </p>
+                <div class="project-links">
+                    <p>
+                        GitHub:
+                        <a class="link" href="https://github.com/PalamarchukOleksii/Social-Campus">
+                            github.com/PalamarchukOleksii/Social-Campus
+                        </a>
+                    </p>
+                    <p>
+                        Live:
+                        <a class="link" href="https://social-campus-zeta.vercel.app">
+                            social-campus-zeta.vercel.app
+                        </a>
+                    </p>
+                </div>
+            </article>
+
+            <article class="project-card column">
+                <h4 class="subsection-title project-title">Believe or Not Believe Card Game</h4>
+                <p class="project-description">
+                    Card game implementation with real-time communication where players
+                    make decisions based on belief or skepticism.
+                </p>
+                <div class="project-links">
+                    <p>
+                        GitHub:
+                        <a class="link" href="https://github.com/PalamarchukOleksii/BelieveOrNotBelieveGame">
+                            github.com/PalamarchukOleksii/BelieveOrNotBelieveGame
+                        </a>
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+</body>
+
+</html>
